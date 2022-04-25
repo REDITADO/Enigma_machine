@@ -1,0 +1,69 @@
+body,html{
+    background-color: #222;
+}
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+    color:#ddd ;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    font-family: "Montserrat",sans-serif;
+    position: relative;
+    left: 15rem;
+    width: 35vh;
+    color: #ddd;
+}
+.EnigmaField{
+    display: flex;
+    flex-direction: column;
+}
+.screen{
+    align-self: center;
+    height: 10rem;
+    width: 60rem;
+}
+.lampBoard{
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60rem;
+    margin-top: 1.2rem;
+}
+
+.lamps{
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+}
+.active{
+    background-color: chartreuse;
+}
+.keyBoard{
+    margin-top: 2rem;
+    align-self: center;
+    width: 55rem;
+}
+.teclas{
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    cursor: pointer;
+}
+.rotors{
+    position: relative;
+    left: 45rem;
+    width: 10rem;
+    font-size: 3rem;
+    color: #ddd;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: bold;
+    font-size:1.3rem ;
+}
